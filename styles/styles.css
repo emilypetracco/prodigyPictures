@@ -234,3 +234,80 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Bitter', serif;
+}
+
+.topNavigation {
+  background-color: #000000;
+  padding: 2rem 0;
+}
+
+.topNavigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topNavigation li {
+  padding: 0 2rem;
+  color: #FFFFFF;
+}
+
+.topNavigation .logo {
+  width: 30%;
+  padding-left: 2rem;
+}
+
+.tv li img,
+.films li img {
+  width: 30%;
+}
+
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

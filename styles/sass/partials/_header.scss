@@ -1,0 +1,16 @@
+.topNavigation {
+    background-color: $black;
+    padding: 2rem 0;
+    ul {
+        display: flex;
+        align-items: center;
+    }
+    li {
+        padding: 0 2rem;
+        color: $white;
+    }
+    .logo {
+        width: 30%;
+        padding-left: 2rem;
+    }
+}
