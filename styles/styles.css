@@ -252,6 +252,21 @@ h4 {
   font-family: 'Bitter', serif;
 }
 
+.topNavigation ul li {
+  color: #FFFFFF;
+  font-size: 2.2rem;
+}
+
+.topNavigation ul li:hover,
+.topNavigation ul li:focus {
+  -webkit-text-decoration: underline 0.15rem #074574;
+          text-decoration: underline 0.15rem #074574;
+}
+
+.currentPage {
+  color: #91bae8;
+}
+
 .topNavigation {
   background-color: #000000;
   padding: 2rem 0;
@@ -268,12 +283,49 @@ h4 {
 
 .topNavigation li {
   padding: 0 2rem;
-  color: #FFFFFF;
 }
 
 .topNavigation .logo {
   width: 30%;
   padding-left: 2rem;
+}
+
+.homePage h1 {
+  text-align: center;
+  margin: 10rem 0;
+}
+
+.aboutUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutUs div {
+  width: 30%;
+  text-align: left;
+}
+
+.aboutUs h2 {
+  margin-bottom: 2rem;
+}
+
+.latestNews {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.latestNews .imageContainer {
+  width: 40%;
+}
+
+.latestNews .textContainer {
+  width: 60%;
 }
 
 .tv li img,

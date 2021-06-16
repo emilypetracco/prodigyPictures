@@ -1,4 +1,34 @@
+// index styles
+.aboutUs {
+    display: flex;
+    justify-content: space-between;
+    // padding-top: 5rem;
+    div {
+        width: 30%;
+        text-align: left;
+    }
+    h2 {
+        margin-bottom: 2rem;
+    }
+}
+
+.latestNews {
+    margin-top: 10rem;
+    display: flex;
+    .imageContainer {
+        width: 40%;
+    }
+    .textContainer {
+        width: 60%;
+    }
+}
+
+// about styles
+
+// production styles
 .tv li img,
 .films li img {
     width: 30%;
 }
+
+// contact styles
