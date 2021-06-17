@@ -267,6 +267,29 @@ h4 {
   color: #91bae8;
 }
 
+.footerContents .copyright {
+  color: #FFFFFF;
+}
+
+.footerContents .footerNavigation span {
+  color: #074574;
+}
+
+.footerContents .footerNavigation li {
+  font-size: 2.2rem;
+}
+
+.footerContents .footerNavigation li:hover,
+.footerContents .footerNavigation li:focus {
+  -webkit-text-decoration: underline 0.15rem #074574;
+          text-decoration: underline 0.15rem #074574;
+}
+
+.footerContents .socialMediaNavigation li {
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
 .topNavigation {
   background-color: #000000;
   padding: 2rem 0;
@@ -287,7 +310,6 @@ h4 {
 
 .topNavigation .logo {
   width: 30%;
-  padding-left: 2rem;
 }
 
 .homePage h1 {
@@ -331,6 +353,61 @@ h4 {
 .tv li img,
 .films li img {
   width: 30%;
+}
+
+footer {
+  background-color: #074574;
+  padding: 2rem 0 0;
+}
+
+.footerContents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerContents .footerContainer {
+  background-color: #91bae8;
+  border: 0.2rem solid #074574;
+  width: 40%;
+  margin-top: -15rem;
+  position: relative;
+}
+
+.footerContents .footerContainer .footerNavigation,
+.footerContents .footerContainer .socialMediaNavigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2rem 0;
+}
+
+.footerContents .footerContainer .socialMediaNavigation li {
+  border: 0.2rem solid #074574;
+  border-radius: 50%;
+  background-color: #074574;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  padding-top: 0.8rem;
+}
+
+.footerContents .footerContainer .socialMediaNavigation li:hover,
+.footerContents .footerContainer .socialMediaNavigation li:focus {
+  color: #074574;
+  background-color: #FFFFFF;
+}
+
+.footerContents .logo2 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 body,

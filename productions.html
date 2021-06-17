@@ -7,7 +7,11 @@
     <title>Productions | Prodigy Pictures</title>
 
     <link rel="stylesheet" href="./styles/styles.css">
+    
     <script src="https://kit.fontawesome.com/adb5bbd60b.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Raleway&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
@@ -85,21 +89,24 @@
         </section>
     </main>
 
-    <footer>
-        <p>© 2021 Prodigy Pictures</p>
-        <div>
-            <h4>Get In Touch</h4>
-            <nav class="bottomNav">
-                <ul>
-                    <li><a href="https://twitter.com/prodpics"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/prodpics/"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a class="email" id="email" href="mailto:assistant@prodigypictures.com"><i class="fas fa-at"></i></a></li>
+    <footer> 
+        <div class="wrapper footerContents">
+            <p class="copyright">© 2021 Prodigy Pictures</p> 
+            <div class="footerContainer">
+                <img class="logo2" src="./assets/prodigyLogo.png" alt="Prodigy Pictures logo">
+                <ul class="footerNavigation">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./productions.html"><span class="currentPage">Productions</span></a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
-            </nav>
+                <ul class="socialMediaNavigation">
+                    <li><a href="https://twitter.com/prodpics" target="_blank"><span class="sr-only">Twitter</span><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/prodpics/"><span class="sr-only" target="_blank">Facebook</span><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="email" id="email" href="mailto:assistant@prodigypictures.com"><span class="sr-only">Email</span><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>           
         </div>
-        <div>
-            <a class="scrollTop" href="#"><i class="fas fa-chevron-up"></i></a>
-        </div>
-    </footer>
+</footer>
 </body>
 </html>

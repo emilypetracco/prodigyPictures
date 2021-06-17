@@ -1,0 +1,41 @@
+footer {
+    background-color: $darkBlue;
+    padding: 2rem 0 0;
+}
+
+.footerContents {
+    display: flex;
+    justify-content: space-between;
+    .footerContainer {
+        background-color: $lightBlue;
+        border: 0.2rem solid $darkBlue;
+        width: 40%;
+        margin-top: -15rem;
+        position: relative;
+        .footerNavigation,
+        .socialMediaNavigation {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 2rem 0;
+        }
+        .socialMediaNavigation li {
+            border: 0.2rem solid $darkBlue;
+            border-radius: 50%;
+            background-color: $darkBlue;
+            width: 5rem;
+            height: 5rem;
+            text-align: center;
+            padding-top: 0.8rem;
+        }
+        .socialMediaNavigation li:hover,
+        .socialMediaNavigation li:focus {
+            color: $darkBlue;
+            background-color: $white;
+        }
+    }
+    .logo2 {
+        width: 50%;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+}
