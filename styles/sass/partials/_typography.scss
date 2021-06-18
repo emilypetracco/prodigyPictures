@@ -4,13 +4,13 @@
 @import "./variables";
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-    font-size: 2rem;
-    line-height: 3.2rem;
-    font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	line-height: 3.2rem;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1,
@@ -18,38 +18,41 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Bitter', serif;
+	font-family: 'Bitter', serif;
 }
 
 .topNavigation ul li {
-    color: $white;
-    font-size: 2.2rem;
+	color: $white;
+	font-size: 2.2rem;
 }
 
 .topNavigation ul li:hover,
 .topNavigation ul li:focus {
-    text-decoration: underline 0.15rem $darkBlue;
+	text-decoration: underline 0.15rem $darkBlue;
 }
 
 .currentPage {
-    color: $lightBlue;
+	color: $lightBlue;
 }
 
 .text {
-    color: $white;
-    font-size: 2rem;
-    h5 {
-        font-size: 2.5rem;
-    }
+	color: $white;
+	font-size: 2rem;
+	h5 {
+		font-size: 2.5rem;
+	}
+	a {
+		color: $black;
+	}
 }
 
 .footerContents {
-    .copyright {
-        color: $white;
-    }
-    .socialMediaNavigation li {
-        font-size: 3rem;
-        color: $white;
-    }
+	.copyright {
+			color: $white;
+	}
+	.socialMediaNavigation li {
+			font-size: 3rem;
+			color: $white;
+	}
 }
 

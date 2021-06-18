@@ -1,19 +1,20 @@
 .topNavigation {
-    background-color: $black;
-    padding: 2rem 0;
-    ul {
-        display: flex;
-        align-items: center;
-    }
-    li {
-        padding: 0 2rem;
-    }
-    .logo {
-        width: 30%;
-    }
+	background-color: $black;
+	padding: 2rem 0;
+	margin-bottom: 3rem;
+	ul {
+		display: flex;
+		align-items: center;
+	}
+	li {
+		padding: 0 2rem;
+	}
+	.logo {
+		width: 30%;
+	}
 }
 
 .homePage h1 {
-    text-align: center;
-    margin: 10rem 0;
+	text-align: center;
+	margin: 10rem 0;
 }

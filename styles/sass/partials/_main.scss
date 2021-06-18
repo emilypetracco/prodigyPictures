@@ -1,87 +1,97 @@
-// index styles
-.aboutUs {
-    display: flex;
-    justify-content: space-between;
-    // padding-top: 5rem;
-    div {
-        width: 30%;
-        text-align: left;
-    }
-    h2 {
-        margin-bottom: 2rem;
-    }
+	// index styles
+	.aboutUs {
+	display: flex;
+	justify-content: space-between;
+	// padding-top: 5rem;
+	div {
+		width: 30%;
+		text-align: left;
+	}
+	h2 {
+		margin-bottom: 2rem;
+	}
 }
 
-.latestNews {
-    margin-top: 10rem;
-    display: flex;
-    .imageContainer {
-        width: 40%;
-    }
-    .textContainer {
-        width: 60%;
-    }
+	.latestNews {
+	margin-top: 10rem;
+	display: flex;
+	.imageContainer {
+		width: 40%;
+	}
+	.textContainer {
+		width: 60%;
+	}
+	}
+
+	// about styles
+
+	// production styles
+	.tv,
+	.films {
+	display: flex;
+	justify-content: flex-start;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	}
+
+	.tv li,
+	.films li {
+	width: 21%;
+	margin: 2rem;
+	}
+
+	.overlayContainer {
+	position: relative;
+	width: 50%;
+	}
+
+	.imagePoster {
+	display: block;
+	width: 100%;
+	height: auto;
+	}
+
+	.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: $darkBlue;
+	}
+
+	.overlayContainer:hover .overlay {
+	opacity: 0.95;
+	}
+
+	.text {
+	width: 85%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	h5,
+	p {
+		padding: 1rem;
+	}
+	a {
+		background-color: $lightBlue;
+		padding: 1rem 2rem;
+		border-radius: 10px;
+	}
+	a:hover,
+	a:focus {
+		background-color: $white;
+	}
 }
 
-// about styles
 
-// production styles
-.tv,
-.films {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.tv li,
-.films li {
-    width: 21%;
-    margin: 2rem;
-}
-
-.overlayContainer {
-    position: relative;
-    width: 50%;
-  }
-  
-  .imagePoster {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: $darkBlue;
-  }
-  
-  .overlayContainer:hover .overlay {
-    opacity: 0.9;
-  }
-  
-  .text {
-    width: 85%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    h5,
-    p {
-      padding: 1rem;
-  }
-}
-
-
-// contact styles
+	// contact styles

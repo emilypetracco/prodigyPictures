@@ -277,6 +277,10 @@ h5 {
   font-size: 2.5rem;
 }
 
+.text a {
+  color: #000000;
+}
+
 .footerContents .copyright {
   color: #FFFFFF;
 }
@@ -289,6 +293,7 @@ h5 {
 .topNavigation {
   background-color: #000000;
   padding: 2rem 0;
+  margin-bottom: 3rem;
 }
 
 .topNavigation ul {
@@ -354,6 +359,9 @@ h5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -393,7 +401,7 @@ h5 {
 }
 
 .overlayContainer:hover .overlay {
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .text {
@@ -411,8 +419,19 @@ h5 {
   padding: 1rem;
 }
 
+.text a {
+  background-color: #91bae8;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.text a:hover,
+.text a:focus {
+  background-color: #FFFFFF;
+}
+
 footer {
-  background-color: #074574;
+  background-color: #000000;
   padding: 2rem 0 0;
   margin-top: 20rem;
 }
@@ -428,7 +447,8 @@ footer {
 
 .footerContents .footerContainer {
   background-color: #91bae8;
-  border: 0.2rem solid #074574;
+  border: 0.2rem solid #000000;
+  border-radius: 0.5rem;
   width: 40%;
   margin-top: -15rem;
   position: relative;
