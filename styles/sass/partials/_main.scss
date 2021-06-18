@@ -26,9 +26,62 @@
 // about styles
 
 // production styles
-.tv li img,
-.films li img {
-    width: 30%;
+.tv,
+.films {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.tv li,
+.films li {
+    width: 21%;
+    margin: 2rem;
+}
+
+.overlayContainer {
+    position: relative;
+    width: 50%;
+  }
+  
+  .imagePoster {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: $darkBlue;
+  }
+  
+  .overlayContainer:hover .overlay {
+    opacity: 0.9;
+  }
+  
+  .text {
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    h5,
+    p {
+      padding: 1rem;
+  }
+}
+
 
 // contact styles

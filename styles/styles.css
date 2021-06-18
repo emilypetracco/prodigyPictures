@@ -248,7 +248,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: 'Bitter', serif;
 }
 
@@ -267,22 +268,17 @@ h4 {
   color: #91bae8;
 }
 
+.text {
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+.text h5 {
+  font-size: 2.5rem;
+}
+
 .footerContents .copyright {
   color: #FFFFFF;
-}
-
-.footerContents .footerNavigation span {
-  color: #074574;
-}
-
-.footerContents .footerNavigation li {
-  font-size: 2.2rem;
-}
-
-.footerContents .footerNavigation li:hover,
-.footerContents .footerNavigation li:focus {
-  -webkit-text-decoration: underline 0.15rem #074574;
-          text-decoration: underline 0.15rem #074574;
 }
 
 .footerContents .socialMediaNavigation li {
@@ -350,14 +346,75 @@ h4 {
   width: 60%;
 }
 
-.tv li img,
-.films li img {
-  width: 30%;
+.tv,
+.films {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tv li,
+.films li {
+  width: 21%;
+  margin: 2rem;
+}
+
+.overlayContainer {
+  position: relative;
+  width: 50%;
+}
+
+.imagePoster {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #074574;
+}
+
+.overlayContainer:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text h5,
+.text p {
+  padding: 1rem;
 }
 
 footer {
   background-color: #074574;
   padding: 2rem 0 0;
+  margin-top: 20rem;
 }
 
 .footerContents {
@@ -377,7 +434,6 @@ footer {
   position: relative;
 }
 
-.footerContents .footerContainer .footerNavigation,
 .footerContents .footerContainer .socialMediaNavigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -416,6 +472,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p {
   margin: 0;
   padding: 0;

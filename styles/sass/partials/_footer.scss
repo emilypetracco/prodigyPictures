@@ -1,6 +1,7 @@
 footer {
     background-color: $darkBlue;
     padding: 2rem 0 0;
+    margin-top: 20rem;
 }
 
 .footerContents {
@@ -12,7 +13,6 @@ footer {
         width: 40%;
         margin-top: -15rem;
         position: relative;
-        .footerNavigation,
         .socialMediaNavigation {
             display: flex;
             justify-content: space-evenly;

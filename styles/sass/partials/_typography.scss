@@ -16,7 +16,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     font-family: 'Bitter', serif;
 }
 
@@ -34,19 +35,17 @@ h4 {
     color: $lightBlue;
 }
 
+.text {
+    color: $white;
+    font-size: 2rem;
+    h5 {
+        font-size: 2.5rem;
+    }
+}
+
 .footerContents {
     .copyright {
         color: $white;
-    }
-    .footerNavigation span {
-        color: $darkBlue;
-    }
-    .footerNavigation li {
-        font-size: 2.2rem;
-    }
-    .footerNavigation li:hover,
-    .footerNavigation li:focus {
-        text-decoration: underline 0.15rem $darkBlue;
     }
     .socialMediaNavigation li {
         font-size: 3rem;
