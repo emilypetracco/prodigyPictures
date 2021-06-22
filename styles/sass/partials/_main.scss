@@ -1,8 +1,7 @@
 	// index styles
-	.aboutUs {
+.aboutUs {
 	display: flex;
 	justify-content: space-between;
-	// padding-top: 5rem;
 	div {
 		width: 30%;
 		text-align: left;
@@ -12,7 +11,7 @@
 	}
 }
 
-	.latestNews {
+.latestNews {
 	margin-top: 10rem;
 	display: flex;
 	.imageContainer {
@@ -21,38 +20,48 @@
 	.textContainer {
 		width: 60%;
 	}
-	}
+}
 
 	// about styles
 
 	// production styles
-	.tv,
-	.films {
+
+.tvProductions h3,
+.filmProductions h3 {
+	margin: 8rem 0 2rem 4rem;
+	span {
+		border-bottom: 0.2rem solid $lightBlue;
+	}
+}
+
+
+.tv,
+.films {
 	display: flex;
 	justify-content: flex-start;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	}
+}
 
-	.tv li,
-	.films li {
+.tv li,
+.films li {
 	width: 21%;
 	margin: 2rem;
-	}
+}
 
-	.overlayContainer {
+.overlayContainer {
 	position: relative;
 	width: 50%;
-	}
+}
 
-	.imagePoster {
+.imagePoster {
 	display: block;
 	width: 100%;
 	height: auto;
-	}
+}
 
-	.overlay {
+.overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -63,13 +72,13 @@
 	opacity: 0;
 	transition: .5s ease;
 	background-color: $darkBlue;
-	}
+}
 
-	.overlayContainer:hover .overlay {
+.overlayContainer:hover .overlay {
 	opacity: 0.95;
-	}
+}
 
-	.text {
+.text {
 	width: 85%;
 	position: absolute;
 	top: 50%;

@@ -21,6 +21,10 @@ h5 {
 	font-family: 'Bitter', serif;
 }
 
+h1 {
+	font-size: 6rem;
+}
+
 .topNavigation ul li {
 	color: $white;
 	font-size: 2.2rem;
@@ -33,6 +37,11 @@ h5 {
 
 .currentPage {
 	color: $lightBlue;
+}
+
+.tvProductions h3,
+.filmProductions h3 {
+	font-size: 3rem;
 }
 
 .text {

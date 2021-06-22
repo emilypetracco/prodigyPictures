@@ -253,6 +253,10 @@ h5 {
   font-family: 'Bitter', serif;
 }
 
+h1 {
+  font-size: 6rem;
+}
+
 .topNavigation ul li {
   color: #FFFFFF;
   font-size: 2.2rem;
@@ -266,6 +270,11 @@ h5 {
 
 .currentPage {
   color: #91bae8;
+}
+
+.tvProductions h3,
+.filmProductions h3 {
+  font-size: 3rem;
 }
 
 .text {
@@ -293,7 +302,7 @@ h5 {
 .topNavigation {
   background-color: #000000;
   padding: 2rem 0;
-  margin-bottom: 3rem;
+  margin-bottom: 8rem;
 }
 
 .topNavigation ul {
@@ -313,9 +322,8 @@ h5 {
   width: 30%;
 }
 
-.homePage h1 {
+h1 {
   text-align: center;
-  margin: 10rem 0;
 }
 
 .aboutUs {
@@ -349,6 +357,16 @@ h5 {
 
 .latestNews .textContainer {
   width: 60%;
+}
+
+.tvProductions h3,
+.filmProductions h3 {
+  margin: 8rem 0 2rem 4rem;
+}
+
+.tvProductions h3 span,
+.filmProductions h3 span {
+  border-bottom: 0.2rem solid #91bae8;
 }
 
 .tv,
