@@ -25,6 +25,10 @@ h1 {
 	font-size: 6rem;
 }
 
+h2 {
+	font-size: 4rem;
+}
+
 .topNavigation ul li {
 	color: $white;
 	font-size: 2.2rem;
@@ -37,6 +41,11 @@ h1 {
 
 .currentPage {
 	color: $lightBlue;
+}
+
+.date {
+	font-size: 1.8rem;
+	text-transform: uppercase;		
 }
 
 .tvProductions h3,
@@ -52,6 +61,17 @@ h1 {
 	}
 	a {
 		color: $black;
+	}
+}
+
+.contactMain {
+	.address {
+		li:first-child {
+			font-size: 3rem;
+		}
+	}
+	a {
+		color: $darkBlue;
 	}
 }
 

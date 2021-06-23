@@ -257,6 +257,10 @@ h1 {
   font-size: 6rem;
 }
 
+h2 {
+  font-size: 4rem;
+}
+
 .topNavigation ul li {
   color: #FFFFFF;
   font-size: 2.2rem;
@@ -270,6 +274,11 @@ h1 {
 
 .currentPage {
   color: #91bae8;
+}
+
+.date {
+  font-size: 1.8rem;
+  text-transform: uppercase;
 }
 
 .tvProductions h3,
@@ -288,6 +297,14 @@ h1 {
 
 .text a {
   color: #000000;
+}
+
+.contactMain .address li:first-child {
+  font-size: 3rem;
+}
+
+.contactMain a {
+  color: #074574;
 }
 
 .footerContents .copyright {
@@ -345,18 +362,46 @@ h1 {
 }
 
 .latestNews {
+  background-color: #91bae8;
+  padding: 2rem 0;
+}
+
+.latestNewsContent {
   margin-top: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.latestNews .imageContainer {
+.latestNewsContent .imageContainer {
   width: 40%;
 }
 
-.latestNews .textContainer {
+.latestNewsContent .imageContainer img {
+  border-radius: 0.5rem;
+}
+
+.latestNewsContent .textContainer {
   width: 60%;
+  height: 40rem;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.latestNewsContent .textContainer .date {
+  border-bottom: 2px solid #91bae8;
+}
+
+.latestNewsContent .textContainer h2 {
+  margin-bottom: 2rem;
+}
+
+.latestNewsContent .textContainer p {
+  padding: 1rem 0;
 }
 
 .tvProductions h3,
@@ -446,6 +491,49 @@ h1 {
 .text a:hover,
 .text a:focus {
   background-color: #FFFFFF;
+}
+
+.contactMain {
+  padding-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contactMain ul {
+  padding-bottom: 2rem;
+}
+
+.contactMain .address li:first-child {
+  padding: 2rem;
+}
+
+.contactMain .mapOuter {
+  position: relative;
+  text-align: right;
+  height: 35rem;
+  width: 45rem;
+}
+
+.contactMain .gmapCanvas {
+  overflow: hidden;
+  background: none !important;
+  height: 35rem;
+  width: 45rem;
+  -webkit-box-shadow: 1rem 1rem #074574;
+          box-shadow: 1rem 1rem #074574;
+}
+
+.contactMain a:hover,
+.contactMain a:focus {
+  border-bottom: 2px solid #91bae8;
 }
 
 footer {

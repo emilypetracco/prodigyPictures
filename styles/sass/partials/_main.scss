@@ -12,14 +12,38 @@
 }
 
 .latestNews {
+	background-color: $lightBlue;
+	padding: 2rem 0;
+}
+
+.latestNewsContent {
 	margin-top: 10rem;
 	display: flex;
+	justify-content: space-evenly;
 	.imageContainer {
 		width: 40%;
+		img {
+			border-radius: 0.5rem;
+		}
 	}
 	.textContainer {
 		width: 60%;
+		height: 40rem;
+		background-color: $white;
+		border-radius: 0.5rem;
+		padding: 2rem;
+		.date {
+			border-bottom: 2px solid $lightBlue;
+		}
+		h2 {
+			margin-bottom: 2rem;
+		}
+		p {
+			padding: 1rem 0;
+		}
+
 	}
+
 }
 
 	// about styles
@@ -104,3 +128,38 @@
 
 
 	// contact styles
+
+.contactMain {
+	padding-top: 8rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	ul {
+		padding-bottom: 2rem;
+	}
+	.address {
+		li:first-child {
+		padding: 2rem;
+		}
+	}
+	.mapOuter {
+		position: relative;
+		text-align: right;
+		height: 35rem;
+		width: 45rem;
+	}
+	.gmapCanvas {
+		overflow: hidden;
+		background: none!important;
+		height: 35rem;
+		width: 45rem;
+		// border: 2px solid $lightBlue;
+		box-shadow: 1rem 1rem $darkBlue;
+	}
+	a:hover,
+	a:focus {
+		border-bottom: 2px solid $lightBlue;
+	}
+}
+
