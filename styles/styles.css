@@ -276,6 +276,14 @@ h2 {
   color: #91bae8;
 }
 
+.textContainer h2 {
+  color: #074574;
+}
+
+.textContainer h3 {
+  font-size: 2.8rem;
+}
+
 .date {
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -362,7 +370,6 @@ h1 {
 }
 
 .latestNews {
-  background-color: #91bae8;
   padding: 2rem 0;
 }
 
@@ -381,27 +388,43 @@ h1 {
 }
 
 .latestNewsContent .imageContainer img {
-  border-radius: 0.5rem;
+  border: 0.2rem solid #074574;
+  -webkit-box-shadow: -1rem 1rem #074574;
+          box-shadow: -1rem 1rem #074574;
 }
 
 .latestNewsContent .textContainer {
   width: 60%;
   height: 40rem;
-  background-color: #FFFFFF;
-  border-radius: 0.5rem;
-  padding: 2rem;
+  background-color: #91bae8;
+  border: 0.2rem solid #074574;
+  -webkit-box-shadow: 1rem -1rem #074574;
+          box-shadow: 1rem -1rem #074574;
+  padding: 0 2rem;
 }
 
-.latestNewsContent .textContainer .date {
-  border-bottom: 2px solid #91bae8;
+.latestNewsContent .textContainer .underline {
+  border-bottom: 2px solid #074574;
 }
 
 .latestNewsContent .textContainer h2 {
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  position: absolute;
+  background-color: #91bae8;
+  width: 53%;
+  padding: 3rem 0;
+}
+
+.latestNewsContent .textContainer .firstEntry {
+  padding-top: 9rem;
+}
+
+.latestNewsContent .textContainer .entry {
+  padding-bottom: 2rem;
 }
 
 .latestNewsContent .textContainer p {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .tvProductions h3,
@@ -554,7 +577,6 @@ footer {
 .footerContents .footerContainer {
   background-color: #91bae8;
   border: 0.2rem solid #000000;
-  border-radius: 0.5rem;
   width: 40%;
   margin-top: -15rem;
   position: relative;

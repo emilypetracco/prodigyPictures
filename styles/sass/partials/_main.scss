@@ -12,8 +12,10 @@
 }
 
 .latestNews {
-	background-color: $lightBlue;
+	// background-color: $lightBlue;
 	padding: 2rem 0;
+	// border-top: 0.2rem solid $black;
+	// border-bottom: 0.2rem solid $black;
 }
 
 .latestNewsContent {
@@ -23,23 +25,37 @@
 	.imageContainer {
 		width: 40%;
 		img {
-			border-radius: 0.5rem;
+			border: 0.2rem solid $darkBlue;
+			box-shadow: -1rem 1rem $darkBlue;
 		}
 	}
 	.textContainer {
 		width: 60%;
 		height: 40rem;
-		background-color: $white;
-		border-radius: 0.5rem;
-		padding: 2rem;
-		.date {
-			border-bottom: 2px solid $lightBlue;
+		background-color: $lightBlue;
+		border: 0.2rem solid $darkBlue;
+		box-shadow: 1rem -1rem $darkBlue;
+		// border-radius: 0.5rem;
+		padding: 0 2rem;
+		.underline {
+			border-bottom: 2px solid $darkBlue;
 		}
 		h2 {
-			margin-bottom: 2rem;
+			padding-bottom: 2rem;
+			position: absolute;
+			background-color: $lightBlue;
+			width: 53%;
+			padding: 3rem 0;
+			
+		}
+		.firstEntry {
+			padding-top: 9rem;
+		}
+		.entry {
+			padding-bottom: 2rem;
 		}
 		p {
-			padding: 1rem 0;
+			padding: 2rem 0;
 		}
 
 	}
@@ -154,7 +170,6 @@
 		background: none!important;
 		height: 35rem;
 		width: 45rem;
-		// border: 2px solid $lightBlue;
 		box-shadow: 1rem 1rem $darkBlue;
 	}
 	a:hover,

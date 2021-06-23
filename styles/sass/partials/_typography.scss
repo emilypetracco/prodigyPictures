@@ -43,6 +43,15 @@ h2 {
 	color: $lightBlue;
 }
 
+.textContainer {
+	h2 {
+	color: $darkBlue;
+	}
+	h3 {
+		font-size: 2.8rem;
+	}
+}
+
 .date {
 	font-size: 1.8rem;
 	text-transform: uppercase;		
