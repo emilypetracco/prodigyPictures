@@ -1,5 +1,5 @@
 	// index styles
-.aboutUs {
+.whoWeAre {
 	display: flex;
 	justify-content: space-between;
 	div {
@@ -12,10 +12,7 @@
 }
 
 .latestNews {
-	// background-color: $lightBlue;
 	padding: 2rem 0;
-	// border-top: 0.2rem solid $black;
-	// border-bottom: 0.2rem solid $black;
 }
 
 .latestNewsContent {
@@ -26,7 +23,7 @@
 		width: 40%;
 		img {
 			border: 0.2rem solid $darkBlue;
-			box-shadow: -1rem 1rem $darkBlue;
+			box-shadow: -0.5rem 0.5rem $darkBlue;
 		}
 	}
 	.textContainer {
@@ -34,16 +31,15 @@
 		height: 40rem;
 		background-color: $lightBlue;
 		border: 0.2rem solid $darkBlue;
-		box-shadow: 1rem -1rem $darkBlue;
-		// border-radius: 0.5rem;
+		box-shadow: 0.5rem -0.5rem $darkBlue;
 		padding: 0 2rem;
 		.underline {
 			border-bottom: 2px solid $darkBlue;
 		}
 		h2 {
+			background-color: $lightBlue;
 			padding-bottom: 2rem;
 			position: absolute;
-			background-color: $lightBlue;
 			width: 53%;
 			padding: 3rem 0;
 			
@@ -57,12 +53,37 @@
 		p {
 			padding: 2rem 0;
 		}
-
 	}
-
 }
 
 	// about styles
+
+.aboutUs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 8rem;
+	.imageContainer {
+		width: 40%;
+		img {
+			border: 0.2rem solid $darkBlue;
+			box-shadow: -0.5rem -0.5rem $darkBlue;
+		}
+	}
+	.textContainer {
+		width: 50%;
+		p {
+			padding-bottom: 1rem;
+		}
+		a {
+			border-bottom: 2px solid $blue;
+		}
+		a:hover {
+			border-bottom: 2px solid $darkBlue;
+
+		}
+	}
+}
 
 	// production styles
 
@@ -70,7 +91,7 @@
 .filmProductions h3 {
 	margin: 8rem 0 2rem 4rem;
 	span {
-		border-bottom: 0.2rem solid $lightBlue;
+		border-bottom: 0.2rem solid $blue;
 	}
 }
 
@@ -170,11 +191,12 @@
 		background: none!important;
 		height: 35rem;
 		width: 45rem;
-		box-shadow: 1rem 1rem $darkBlue;
+		box-shadow: 0.5rem 0.5rem $darkBlue;
+		border: 0.2rem solid $darkBlue;
 	}
 	a:hover,
 	a:focus {
-		border-bottom: 2px solid $lightBlue;
+		border-bottom: 2px solid $blue;
 	}
 }
 

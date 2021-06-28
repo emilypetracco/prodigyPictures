@@ -258,7 +258,7 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 .topNavigation ul li {
@@ -273,11 +273,7 @@ h2 {
 }
 
 .currentPage {
-  color: #91bae8;
-}
-
-.textContainer h2 {
-  color: #074574;
+  color: #95c8ff;
 }
 
 .textContainer h3 {
@@ -351,7 +347,7 @@ h1 {
   text-align: center;
 }
 
-.aboutUs {
+.whoWeAre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -360,12 +356,12 @@ h1 {
           justify-content: space-between;
 }
 
-.aboutUs div {
+.whoWeAre div {
   width: 30%;
   text-align: left;
 }
 
-.aboutUs h2 {
+.whoWeAre h2 {
   margin-bottom: 2rem;
 }
 
@@ -389,17 +385,17 @@ h1 {
 
 .latestNewsContent .imageContainer img {
   border: 0.2rem solid #074574;
-  -webkit-box-shadow: -1rem 1rem #074574;
-          box-shadow: -1rem 1rem #074574;
+  -webkit-box-shadow: -0.5rem 0.5rem #074574;
+          box-shadow: -0.5rem 0.5rem #074574;
 }
 
 .latestNewsContent .textContainer {
   width: 60%;
   height: 40rem;
-  background-color: #91bae8;
+  background-color: #cbdff4;
   border: 0.2rem solid #074574;
-  -webkit-box-shadow: 1rem -1rem #074574;
-          box-shadow: 1rem -1rem #074574;
+  -webkit-box-shadow: 0.5rem -0.5rem #074574;
+          box-shadow: 0.5rem -0.5rem #074574;
   padding: 0 2rem;
 }
 
@@ -408,9 +404,9 @@ h1 {
 }
 
 .latestNewsContent .textContainer h2 {
+  background-color: #cbdff4;
   padding-bottom: 2rem;
   position: absolute;
-  background-color: #91bae8;
   width: 53%;
   padding: 3rem 0;
 }
@@ -427,6 +423,45 @@ h1 {
   padding: 2rem 0;
 }
 
+.aboutUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 8rem;
+}
+
+.aboutUs .imageContainer {
+  width: 40%;
+}
+
+.aboutUs .imageContainer img {
+  border: 0.2rem solid #074574;
+  -webkit-box-shadow: -0.5rem -0.5rem #074574;
+          box-shadow: -0.5rem -0.5rem #074574;
+}
+
+.aboutUs .textContainer {
+  width: 50%;
+}
+
+.aboutUs .textContainer p {
+  padding-bottom: 1rem;
+}
+
+.aboutUs .textContainer a {
+  border-bottom: 2px solid #95c8ff;
+}
+
+.aboutUs .textContainer a:hover {
+  border-bottom: 2px solid #074574;
+}
+
 .tvProductions h3,
 .filmProductions h3 {
   margin: 8rem 0 2rem 4rem;
@@ -434,7 +469,7 @@ h1 {
 
 .tvProductions h3 span,
 .filmProductions h3 span {
-  border-bottom: 0.2rem solid #91bae8;
+  border-bottom: 0.2rem solid #95c8ff;
 }
 
 .tv,
@@ -506,7 +541,7 @@ h1 {
 }
 
 .text a {
-  background-color: #91bae8;
+  background-color: #cbdff4;
   padding: 1rem 2rem;
   border-radius: 10px;
 }
@@ -550,13 +585,14 @@ h1 {
   background: none !important;
   height: 35rem;
   width: 45rem;
-  -webkit-box-shadow: 1rem 1rem #074574;
-          box-shadow: 1rem 1rem #074574;
+  -webkit-box-shadow: 0.5rem 0.5rem #074574;
+          box-shadow: 0.5rem 0.5rem #074574;
+  border: 0.2rem solid #074574;
 }
 
 .contactMain a:hover,
 .contactMain a:focus {
-  border-bottom: 2px solid #91bae8;
+  border-bottom: 2px solid #95c8ff;
 }
 
 footer {
@@ -575,7 +611,7 @@ footer {
 }
 
 .footerContents .footerContainer {
-  background-color: #91bae8;
+  background-color: #cbdff4;
   border: 0.2rem solid #000000;
   width: 40%;
   margin-top: -15rem;

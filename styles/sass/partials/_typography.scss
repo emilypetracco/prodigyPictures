@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-	font-size: 4rem;
+	font-size: 4.5rem;
 }
 
 .topNavigation ul li {
@@ -40,13 +40,10 @@ h2 {
 }
 
 .currentPage {
-	color: $lightBlue;
+	color: $blue;
 }
 
 .textContainer {
-	h2 {
-	color: $darkBlue;
-	}
 	h3 {
 		font-size: 2.8rem;
 	}
