@@ -240,7 +240,7 @@ html {
 }
 
 body {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 3.2rem;
   font-family: 'Raleway', sans-serif;
 }
@@ -274,6 +274,30 @@ h2 {
 
 .currentPage {
   color: #95c8ff;
+}
+
+.headline p {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.headline::before {
+  content: "{";
+  font-size: 7rem;
+  font-family: 'Bitter';
+  position: relative;
+  top: 1rem;
+  padding: 0 2rem;
+}
+
+.headline::after {
+  content: "}";
+  font-size: 7rem;
+  font-family: 'Bitter';
+  position: relative;
+  top: 1rem;
+  padding: 0 2rem;
 }
 
 .textContainer h3 {
@@ -344,25 +368,31 @@ h2 {
 }
 
 h1 {
-  text-align: center;
-}
-
-.whoWeAre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.whoWeAre div {
+h1 img {
   width: 30%;
-  text-align: left;
 }
 
-.whoWeAre h2 {
-  margin-bottom: 2rem;
+.headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0 8rem;
+}
+
+.headline p {
+  width: 55%;
+  text-align: center;
 }
 
 .latestNews {
@@ -370,7 +400,6 @@ h1 {
 }
 
 .latestNewsContent {
-  margin-top: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,27 +413,23 @@ h1 {
 }
 
 .latestNewsContent .imageContainer img {
-  border: 0.2rem solid #074574;
-  -webkit-box-shadow: -0.5rem 0.5rem #074574;
-          box-shadow: -0.5rem 0.5rem #074574;
+  border: 0.2rem solid #000000;
 }
 
 .latestNewsContent .textContainer {
   width: 60%;
   height: 40rem;
-  background-color: #cbdff4;
-  border: 0.2rem solid #074574;
-  -webkit-box-shadow: 0.5rem -0.5rem #074574;
-          box-shadow: 0.5rem -0.5rem #074574;
+  background-color: #e5e4e4;
+  border: 0.2rem solid #000000;
   padding: 0 2rem;
 }
 
 .latestNewsContent .textContainer .underline {
-  border-bottom: 2px solid #074574;
+  border-bottom: 2px solid #95c8ff;
 }
 
 .latestNewsContent .textContainer h2 {
-  background-color: #cbdff4;
+  background-color: #e5e4e4;
   padding-bottom: 2rem;
   position: absolute;
   width: 53%;
@@ -420,7 +445,7 @@ h1 {
 }
 
 .latestNewsContent .textContainer p {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 .aboutUs {
@@ -441,9 +466,7 @@ h1 {
 }
 
 .aboutUs .imageContainer img {
-  border: 0.2rem solid #074574;
-  -webkit-box-shadow: -0.5rem -0.5rem #074574;
-          box-shadow: -0.5rem -0.5rem #074574;
+  border: 0.2rem solid #000000;
 }
 
 .aboutUs .textContainer {
@@ -585,9 +608,7 @@ h1 {
   background: none !important;
   height: 35rem;
   width: 45rem;
-  -webkit-box-shadow: 0.5rem 0.5rem #074574;
-          box-shadow: 0.5rem 0.5rem #074574;
-  border: 0.2rem solid #074574;
+  border: 0.2rem solid #000000;
 }
 
 .contactMain a:hover,

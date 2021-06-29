@@ -1,57 +1,42 @@
 	// index styles
-.whoWeAre {
-	display: flex;
-	justify-content: space-between;
-	div {
-		width: 30%;
-		text-align: left;
-	}
-	h2 {
-		margin-bottom: 2rem;
-	}
-}
-
 .latestNews {
 	padding: 2rem 0;
 }
 
 .latestNewsContent {
-	margin-top: 10rem;
 	display: flex;
 	justify-content: space-evenly;
 	.imageContainer {
 		width: 40%;
 		img {
-			border: 0.2rem solid $darkBlue;
-			box-shadow: -0.5rem 0.5rem $darkBlue;
+			border: 0.2rem solid $black;
 		}
 	}
 	.textContainer {
 		width: 60%;
 		height: 40rem;
-		background-color: $lightBlue;
-		border: 0.2rem solid $darkBlue;
-		box-shadow: 0.5rem -0.5rem $darkBlue;
+		background-color: $grey;
+		border: 0.2rem solid $black;
 		padding: 0 2rem;
 		.underline {
-			border-bottom: 2px solid $darkBlue;
+			border-bottom: 2px solid $blue;
 		}
+		
 		h2 {
-			background-color: $lightBlue;
+			background-color: $grey;
 			padding-bottom: 2rem;
 			position: absolute;
 			width: 53%;
-			padding: 3rem 0;
-			
+			padding: 3rem 0;			
 		}
 		.firstEntry {
 			padding-top: 9rem;
-		}
+		}		
 		.entry {
 			padding-bottom: 2rem;
 		}
 		p {
-			padding: 2rem 0;
+			padding: 1.5rem 0;
 		}
 	}
 }
@@ -66,8 +51,7 @@
 	.imageContainer {
 		width: 40%;
 		img {
-			border: 0.2rem solid $darkBlue;
-			box-shadow: -0.5rem -0.5rem $darkBlue;
+			border: 0.2rem solid $black;
 		}
 	}
 	.textContainer {
@@ -191,8 +175,7 @@
 		background: none!important;
 		height: 35rem;
 		width: 45rem;
-		box-shadow: 0.5rem 0.5rem $darkBlue;
-		border: 0.2rem solid $darkBlue;
+		border: 0.2rem solid $black;
 	}
 	a:hover,
 	a:focus {
