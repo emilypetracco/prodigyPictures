@@ -377,6 +377,7 @@ h1 {
 
 h1 img {
   width: 30%;
+  height: auto;
 }
 
 .headline {
@@ -429,6 +430,7 @@ h1 img {
 
 .latestNewsContent .textContainer h2 {
   background-color: #e5e4e4;
+  overflow: hidden;
   padding-bottom: 2rem;
   position: absolute;
   width: 53%;
