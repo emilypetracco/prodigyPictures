@@ -116,7 +116,7 @@
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: $darkBlue;
+	background-color: $grey;
 }
 
 .overlayContainer:hover .overlay {
@@ -132,18 +132,21 @@
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center;
+	h5 {
+		border-bottom: 2px solid $blue;
+	}
 	h5,
 	p {
 		padding: 1rem;
 	}
 	a {
-		background-color: $lightBlue;
+		background-color: $blue;
 		padding: 1rem 2rem;
 		border-radius: 10px;
 	}
 	a:hover,
 	a:focus {
-		background-color: $white;
+		background-color: $lightBlue;
 	}
 }
 

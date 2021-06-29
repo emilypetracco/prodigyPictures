@@ -315,7 +315,6 @@ h2 {
 }
 
 .text {
-  color: #FFFFFF;
   font-size: 2rem;
 }
 
@@ -541,7 +540,7 @@ h1 img {
   opacity: 0;
   -webkit-transition: .5s ease;
   transition: .5s ease;
-  background-color: #074574;
+  background-color: #e5e4e4;
 }
 
 .overlayContainer:hover .overlay {
@@ -558,20 +557,24 @@ h1 img {
   text-align: center;
 }
 
+.text h5 {
+  border-bottom: 2px solid #95c8ff;
+}
+
 .text h5,
 .text p {
   padding: 1rem;
 }
 
 .text a {
-  background-color: #cbdff4;
+  background-color: #95c8ff;
   padding: 1rem 2rem;
   border-radius: 10px;
 }
 
 .text a:hover,
 .text a:focus {
-  background-color: #FFFFFF;
+  background-color: #cbdff4;
 }
 
 .contactMain {
